@@ -66,5 +66,12 @@
       <FileName>CommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.Backend.BaseCommisionEmployee">
+    <Position X="3.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
