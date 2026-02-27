@@ -4,7 +4,14 @@ try
 {
     var expenses = new List<IPay>();
     decimal total = 0;
-    var employee1 = new SalaryEmployee(1010, "Maria", "Perez", true, new Date(1990, 5, 15), new Date(2020, 1, 1), 2500000);
+    var employee1 = new SalaryEmployee(
+        id: 1010, 
+        firstName: "Maria",
+        lastName: "Perez",
+        isActive: true, 
+        bornDate: new Date(1990, 5, 15),
+        hireDate: new Date(2020, 1, 1), 
+        salary: 2500000);
     expenses.Add(employee1);
     var employee2 = new SalaryEmployee(2020, "Joaquin", "Gonzalez", true, new Date(1980, 3, 5), new Date(2016, 11, 16), 10395876);
     expenses.Add(employee2);
