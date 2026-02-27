@@ -35,6 +35,7 @@
       <Property Name="BornDate" />
       <Property Name="HireDate" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OPPConcepts.Backend.SalaryEmployee">
     <Position X="11" Y="1" Width="1.5" />
@@ -73,5 +74,23 @@
       <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.Backend.Invoice">
+    <Position X="15.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAgAAAFAAAAAAAAAAAAAAAJAAIggAAAgAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Date" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OPPConcepts.Backend.IPay">
+    <Position X="14" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
